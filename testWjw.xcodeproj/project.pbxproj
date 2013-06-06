@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A805348D174F61EE00B12BA3 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A805348C174F61EE00B12BA3 /* EventKit.framework */; };
+		A8053492174F635100B12BA3 /* timeToString.m in Sources */ = {isa = PBXBuildFile; fileRef = A805348F174F635000B12BA3 /* timeToString.m */; };
+		A8053493174F635100B12BA3 /* timeStampClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A8053491174F635000B12BA3 /* timeStampClass.m */; };
+		A89E27D1170E6C7D003D251B /* car_body.png in Resources */ = {isa = PBXBuildFile; fileRef = A89E27D0170E6C7D003D251B /* car_body.png */; };
+		A89E27DA170E6DDE003D251B /* testAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A89E27D8170E6DDE003D251B /* testAnimationViewController.m */; };
+		A89E27DB170E6DDE003D251B /* testAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89E27D9170E6DDE003D251B /* testAnimationViewController.xib */; };
+		A8B96D4B1702C13D00E4580A /* AHHyperlinkScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B96D3C1702C13D00E4580A /* AHHyperlinkScanner.m */; };
+		A8B96D4C1702C13D00E4580A /* AHLinkLexer.l in Sources */ = {isa = PBXBuildFile; fileRef = A8B96D3E1702C13D00E4580A /* AHLinkLexer.l */; };
+		A8B96D4D1702C13D00E4580A /* AHMarkedHyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B96D401702C13D00E4580A /* AHMarkedHyperlink.m */; };
+		A8B96D4E1702C13D00E4580A /* Copyright.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8B96D421702C13D00E4580A /* Copyright.txt */; };
+		A8B96D4F1702C13D00E4580A /* JSCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B96D441702C13D00E4580A /* JSCoreTextView.m */; };
+		A8B96D501702C13D00E4580A /* JSTwitterCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B96D461702C13D00E4580A /* JSTwitterCoreTextView.m */; };
+		A8B96D511702C13D00E4580A /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8B96D471702C13D00E4580A /* License.txt */; };
+		A8B96D521702C13D00E4580A /* linkedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B96D491702C13D00E4580A /* linkedTextView.m */; };
+		A8B96D531702C13D00E4580A /* 使用简单介绍.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8B96D4A1702C13D00E4580A /* 使用简单介绍.txt */; };
+		A8B96D561702C14800E4580A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B96D551702C14800E4580A /* CoreText.framework */; };
+		A8B96D721702F9B400E4580A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B96D711702F9B400E4580A /* QuartzCore.framework */; };
 		A8F603F51700047700977B51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F603F41700047700977B51 /* UIKit.framework */; };
 		A8F603F71700047700977B51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F603F61700047700977B51 /* Foundation.framework */; };
 		A8F603F91700047700977B51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F603F81700047700977B51 /* CoreGraphics.framework */; };
@@ -18,9 +35,40 @@
 		A8F6040B1700047700977B51 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F6040A1700047700977B51 /* Default-568h@2x.png */; };
 		A8F6040E1700047700977B51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F6040D1700047700977B51 /* ViewController.m */; };
 		A8F604111700047700977B51 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F6040F1700047700977B51 /* ViewController.xib */; };
+		A8F6041D17000F1100977B51 /* blockView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F6041C17000F1100977B51 /* blockView.m */; };
+		A8F6042017001A4900977B51 /* libSystem.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F6041F17001A4900977B51 /* libSystem.dylib */; };
+		A8F604251700336400977B51 /* ibView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F604241700336400977B51 /* ibView.m */; };
+		A8F604271700337400977B51 /* ibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F604261700337400977B51 /* ibView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A805348C174F61EE00B12BA3 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		A805348E174F635000B12BA3 /* timeToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeToString.h; sourceTree = "<group>"; };
+		A805348F174F635000B12BA3 /* timeToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timeToString.m; sourceTree = "<group>"; };
+		A8053490174F635000B12BA3 /* timeStampClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeStampClass.h; sourceTree = "<group>"; };
+		A8053491174F635000B12BA3 /* timeStampClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timeStampClass.m; sourceTree = "<group>"; };
+		A89E27D0170E6C7D003D251B /* car_body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car_body.png; sourceTree = "<group>"; };
+		A89E27D7170E6DDE003D251B /* testAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testAnimationViewController.h; sourceTree = "<group>"; };
+		A89E27D8170E6DDE003D251B /* testAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testAnimationViewController.m; sourceTree = "<group>"; };
+		A89E27D9170E6DDE003D251B /* testAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testAnimationViewController.xib; sourceTree = "<group>"; };
+		A8B96D3B1702C13D00E4580A /* AHHyperlinkScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHHyperlinkScanner.h; sourceTree = "<group>"; };
+		A8B96D3C1702C13D00E4580A /* AHHyperlinkScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHHyperlinkScanner.m; sourceTree = "<group>"; };
+		A8B96D3D1702C13D00E4580A /* AHLinkLexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHLinkLexer.h; sourceTree = "<group>"; };
+		A8B96D3E1702C13D00E4580A /* AHLinkLexer.l */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lex; path = AHLinkLexer.l; sourceTree = "<group>"; };
+		A8B96D3F1702C13D00E4580A /* AHMarkedHyperlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHMarkedHyperlink.h; sourceTree = "<group>"; };
+		A8B96D401702C13D00E4580A /* AHMarkedHyperlink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHMarkedHyperlink.m; sourceTree = "<group>"; };
+		A8B96D411702C13D00E4580A /* AutoHyperlinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoHyperlinks.h; sourceTree = "<group>"; };
+		A8B96D421702C13D00E4580A /* Copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Copyright.txt; sourceTree = "<group>"; };
+		A8B96D431702C13D00E4580A /* JSCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCoreTextView.h; sourceTree = "<group>"; };
+		A8B96D441702C13D00E4580A /* JSCoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCoreTextView.m; sourceTree = "<group>"; };
+		A8B96D451702C13D00E4580A /* JSTwitterCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTwitterCoreTextView.h; sourceTree = "<group>"; };
+		A8B96D461702C13D00E4580A /* JSTwitterCoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTwitterCoreTextView.m; sourceTree = "<group>"; };
+		A8B96D471702C13D00E4580A /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		A8B96D481702C13D00E4580A /* linkedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linkedTextView.h; sourceTree = "<group>"; };
+		A8B96D491702C13D00E4580A /* linkedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = linkedTextView.m; sourceTree = "<group>"; };
+		A8B96D4A1702C13D00E4580A /* 使用简单介绍.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "使用简单介绍.txt"; sourceTree = "<group>"; };
+		A8B96D551702C14800E4580A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A8B96D711702F9B400E4580A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A8F603F01700047700977B51 /* testWjw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testWjw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F603F41700047700977B51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8F603F61700047700977B51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +85,12 @@
 		A8F6040C1700047700977B51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A8F6040D1700047700977B51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A8F604101700047700977B51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A8F6041B17000F1100977B51 /* blockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blockView.h; sourceTree = "<group>"; };
+		A8F6041C17000F1100977B51 /* blockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blockView.m; sourceTree = "<group>"; };
+		A8F6041F17001A4900977B51 /* libSystem.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.dylib; path = usr/lib/libSystem.dylib; sourceTree = SDKROOT; };
+		A8F604231700336400977B51 /* ibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibView.h; sourceTree = "<group>"; };
+		A8F604241700336400977B51 /* ibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ibView.m; sourceTree = "<group>"; };
+		A8F604261700337400977B51 /* ibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ibView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +98,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A805348D174F61EE00B12BA3 /* EventKit.framework in Frameworks */,
+				A8B96D721702F9B400E4580A /* QuartzCore.framework in Frameworks */,
+				A8B96D561702C14800E4580A /* CoreText.framework in Frameworks */,
+				A8F6042017001A4900977B51 /* libSystem.dylib in Frameworks */,
 				A8F603F51700047700977B51 /* UIKit.framework in Frameworks */,
 				A8F603F71700047700977B51 /* Foundation.framework in Frameworks */,
 				A8F603F91700047700977B51 /* CoreGraphics.framework in Frameworks */,
@@ -53,9 +111,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A89CE59C1701543E000B6B20 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		A89E27C9170E6C38003D251B /* 动画的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A89E27D7170E6DDE003D251B /* testAnimationViewController.h */,
+				A89E27D8170E6DDE003D251B /* testAnimationViewController.m */,
+				A89E27D9170E6DDE003D251B /* testAnimationViewController.xib */,
+			);
+			name = "动画的使用";
+			sourceTree = "<group>";
+		};
+		A89E27CF170E6C73003D251B /* 临时素材 */ = {
+			isa = PBXGroup;
+			children = (
+				A89E27D0170E6C7D003D251B /* car_body.png */,
+			);
+			name = "临时素材";
+			sourceTree = "<group>";
+		};
+		A8A5A6D8175D896500B4EABB /* 百度地图相关 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "百度地图相关";
+			sourceTree = "<group>";
+		};
+		A8B96D3A1702C13D00E4580A /* AutoHyperlinks */ = {
+			isa = PBXGroup;
+			children = (
+				A8B96D3B1702C13D00E4580A /* AHHyperlinkScanner.h */,
+				A8B96D3C1702C13D00E4580A /* AHHyperlinkScanner.m */,
+				A8B96D3D1702C13D00E4580A /* AHLinkLexer.h */,
+				A8B96D3E1702C13D00E4580A /* AHLinkLexer.l */,
+				A8B96D3F1702C13D00E4580A /* AHMarkedHyperlink.h */,
+				A8B96D401702C13D00E4580A /* AHMarkedHyperlink.m */,
+				A8B96D411702C13D00E4580A /* AutoHyperlinks.h */,
+				A8B96D421702C13D00E4580A /* Copyright.txt */,
+				A8B96D431702C13D00E4580A /* JSCoreTextView.h */,
+				A8B96D441702C13D00E4580A /* JSCoreTextView.m */,
+				A8B96D451702C13D00E4580A /* JSTwitterCoreTextView.h */,
+				A8B96D461702C13D00E4580A /* JSTwitterCoreTextView.m */,
+				A8B96D471702C13D00E4580A /* License.txt */,
+				A8B96D481702C13D00E4580A /* linkedTextView.h */,
+				A8B96D491702C13D00E4580A /* linkedTextView.m */,
+				A8B96D4A1702C13D00E4580A /* 使用简单介绍.txt */,
+			);
+			path = AutoHyperlinks;
+			sourceTree = "<group>";
+		};
 		A8F603E51700047700977B51 = {
 			isa = PBXGroup;
 			children = (
+				A805348C174F61EE00B12BA3 /* EventKit.framework */,
 				A8F603FA1700047700977B51 /* testWjw */,
 				A8F603F31700047700977B51 /* Frameworks */,
 				A8F603F11700047700977B51 /* Products */,
@@ -73,6 +187,9 @@
 		A8F603F31700047700977B51 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8B96D711702F9B400E4580A /* QuartzCore.framework */,
+				A8B96D551702C14800E4580A /* CoreText.framework */,
+				A8F6041F17001A4900977B51 /* libSystem.dylib */,
 				A8F603F41700047700977B51 /* UIKit.framework */,
 				A8F603F61700047700977B51 /* Foundation.framework */,
 				A8F603F81700047700977B51 /* CoreGraphics.framework */,
@@ -83,6 +200,17 @@
 		A8F603FA1700047700977B51 /* testWjw */ = {
 			isa = PBXGroup;
 			children = (
+				A8A5A6D8175D896500B4EABB /* 百度地图相关 */,
+				A805348E174F635000B12BA3 /* timeToString.h */,
+				A805348F174F635000B12BA3 /* timeToString.m */,
+				A8053490174F635000B12BA3 /* timeStampClass.h */,
+				A8053491174F635000B12BA3 /* timeStampClass.m */,
+				A89E27CF170E6C73003D251B /* 临时素材 */,
+				A89E27C9170E6C38003D251B /* 动画的使用 */,
+				A8B96D3A1702C13D00E4580A /* AutoHyperlinks */,
+				A89CE59C1701543E000B6B20 /* GCD */,
+				A8F604221700334200977B51 /* view和ib结合 */,
+				A8F604211700333700977B51 /* 使用block */,
 				A8F604031700047700977B51 /* AppDelegate.h */,
 				A8F604041700047700977B51 /* AppDelegate.m */,
 				A8F6040C1700047700977B51 /* ViewController.h */,
@@ -105,6 +233,25 @@
 				A8F6040A1700047700977B51 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8F604211700333700977B51 /* 使用block */ = {
+			isa = PBXGroup;
+			children = (
+				A8F6041B17000F1100977B51 /* blockView.h */,
+				A8F6041C17000F1100977B51 /* blockView.m */,
+			);
+			name = "使用block";
+			sourceTree = "<group>";
+		};
+		A8F604221700334200977B51 /* view和ib结合 */ = {
+			isa = PBXGroup;
+			children = (
+				A8F604231700336400977B51 /* ibView.h */,
+				A8F604241700336400977B51 /* ibView.m */,
+				A8F604261700337400977B51 /* ibView.xib */,
+			);
+			name = "view和ib结合";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +310,12 @@
 				A8F604091700047700977B51 /* Default@2x.png in Resources */,
 				A8F6040B1700047700977B51 /* Default-568h@2x.png in Resources */,
 				A8F604111700047700977B51 /* ViewController.xib in Resources */,
+				A8F604271700337400977B51 /* ibView.xib in Resources */,
+				A8B96D4E1702C13D00E4580A /* Copyright.txt in Resources */,
+				A8B96D511702C13D00E4580A /* License.txt in Resources */,
+				A8B96D531702C13D00E4580A /* 使用简单介绍.txt in Resources */,
+				A89E27D1170E6C7D003D251B /* car_body.png in Resources */,
+				A89E27DB170E6DDE003D251B /* testAnimationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +329,17 @@
 				A8F604011700047700977B51 /* main.m in Sources */,
 				A8F604051700047700977B51 /* AppDelegate.m in Sources */,
 				A8F6040E1700047700977B51 /* ViewController.m in Sources */,
+				A8F6041D17000F1100977B51 /* blockView.m in Sources */,
+				A8F604251700336400977B51 /* ibView.m in Sources */,
+				A8B96D4B1702C13D00E4580A /* AHHyperlinkScanner.m in Sources */,
+				A8B96D4C1702C13D00E4580A /* AHLinkLexer.l in Sources */,
+				A8B96D4D1702C13D00E4580A /* AHMarkedHyperlink.m in Sources */,
+				A8B96D4F1702C13D00E4580A /* JSCoreTextView.m in Sources */,
+				A8B96D501702C13D00E4580A /* JSTwitterCoreTextView.m in Sources */,
+				A8B96D521702C13D00E4580A /* linkedTextView.m in Sources */,
+				A89E27DA170E6DDE003D251B /* testAnimationViewController.m in Sources */,
+				A8053492174F635100B12BA3 /* timeToString.m in Sources */,
+				A8053493174F635100B12BA3 /* timeStampClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +453,7 @@
 				A8F604161700047700977B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
