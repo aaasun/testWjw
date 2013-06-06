@@ -17,6 +17,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //这是一个什么烂软件啊 把我的东西都给弄乱了
+    
+    //这是烂不可及
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
