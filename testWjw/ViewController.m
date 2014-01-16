@@ -22,8 +22,6 @@
     
     //这是烂不可及
     
-    
-    
     //尝试一下
     
 	// Do any additional setup after loading the view, typically from a nib.
