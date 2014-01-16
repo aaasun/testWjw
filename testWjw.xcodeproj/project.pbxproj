@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F0878121887F200008F7DDA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0878101887F200008F7DDA /* FirstViewController.m */; };
+		7F0878131887F200008F7DDA /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F0878111887F200008F7DDA /* FirstViewController.xib */; };
 		A8F603F51700047700977B51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F603F41700047700977B51 /* UIKit.framework */; };
 		A8F603F71700047700977B51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F603F61700047700977B51 /* Foundation.framework */; };
 		A8F603F91700047700977B51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F603F81700047700977B51 /* CoreGraphics.framework */; };
@@ -21,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F08780F1887F200008F7DDA /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7F0878101887F200008F7DDA /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7F0878111887F200008F7DDA /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		A8F603F01700047700977B51 /* testWjw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testWjw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F603F41700047700977B51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8F603F61700047700977B51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +93,9 @@
 				A8F6040C1700047700977B51 /* ViewController.h */,
 				A8F6040D1700047700977B51 /* ViewController.m */,
 				A8F6040F1700047700977B51 /* ViewController.xib */,
+				7F08780F1887F200008F7DDA /* FirstViewController.h */,
+				7F0878101887F200008F7DDA /* FirstViewController.m */,
+				7F0878111887F200008F7DDA /* FirstViewController.xib */,
 				A8F603FB1700047700977B51 /* Supporting Files */,
 			);
 			path = testWjw;
@@ -163,6 +171,7 @@
 				A8F604091700047700977B51 /* Default@2x.png in Resources */,
 				A8F6040B1700047700977B51 /* Default-568h@2x.png in Resources */,
 				A8F604111700047700977B51 /* ViewController.xib in Resources */,
+				7F0878131887F200008F7DDA /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				A8F604011700047700977B51 /* main.m in Sources */,
 				A8F604051700047700977B51 /* AppDelegate.m in Sources */,
 				A8F6040E1700047700977B51 /* ViewController.m in Sources */,
+				7F0878121887F200008F7DDA /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +299,7 @@
 				A8F604161700047700977B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

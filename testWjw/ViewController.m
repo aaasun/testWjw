@@ -27,6 +27,14 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    FirstViewController *controller=[[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
+    [self.navigationController pushViewController:controller animated:YES];
+    [controller release];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
